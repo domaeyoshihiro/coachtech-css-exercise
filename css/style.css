@@ -1,0 +1,51 @@
+.header {
+  width: 100%;
+  padding: 15px 15px;
+  position: fixed;
+  display: flex;
+}
+
+a {
+  text-decoration: none;
+  color: #00008B;
+}
+
+.header_left {
+  font-size: 20px;
+}
+
+
+.navi {
+  font-size: 16px;
+  display: flex;
+  justify-content: flex-end;
+  margin: 0 20px 0 auto;
+  list-style: none;
+}
+
+.navi-item {
+  margin-right: 20px;
+}
+
+.relative{
+  position: relative;
+  top:150px;
+}
+
+.img{
+  margin: 0 0 0 auto;
+  width: 50%;
+  display: block;
+
+}
+
+.title{
+  font-size: 50px;
+  font-weight: lighter;
+}
+
+.blue-box{
+  width: 70vw;
+  height: 25vh;
+  background-color: #00008B;
+}
